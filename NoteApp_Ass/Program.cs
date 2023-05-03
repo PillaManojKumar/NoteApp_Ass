@@ -38,6 +38,7 @@
 
             while (true)
             {
+                Console.WriteLine("Welcome To Take Note App");
                 Console.WriteLine("Choose an option:");
                 Console.WriteLine("1. Create Note");
                 Console.WriteLine("2. View Note");
