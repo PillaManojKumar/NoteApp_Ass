@@ -48,6 +48,17 @@
 
                 string choice = Console.ReadLine();
                 Console.WriteLine();
+                int Choice = 0;
+                
+                try
+                {
+                    Console.WriteLine("Enter Your choice: ");
+                    Choice = Convert.ToInt32(Console.ReadLine());
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Enter only Numbers");
+                }
 
                 switch (choice)
                 {
